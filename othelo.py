@@ -16,9 +16,9 @@ h_b = h * 8
 WIN = pygame.display.set_mode((width, height))
 PATH = os.path.abspath('.') + '/'
 
-WHITE = pygame.image.load(PATH + "othelo_assets/white.png")
+WHITE = pygame.image.load(PATH + "white.png")
 white = pygame.transform.scale(WHITE, (piece_w, piece_h))
-BLACK = pygame.image.load(PATH + "othelo_assets/black.png")
+BLACK = pygame.image.load(PATH + "black.png")
 black = pygame.transform.scale(BLACK, (piece_w, piece_h))
 font = pygame.font.SysFont("arialblack", 32)
 
